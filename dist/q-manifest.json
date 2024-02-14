@@ -1,0 +1,205 @@
+{
+  "manifestHash": "i6tl5r",
+  "symbols": {
+    "s_7dduaniw2GM": {
+      "origin": "components/textline.tsx",
+      "displayName": "Future_component",
+      "canonicalFilename": "s_7dduaniw2gm",
+      "hash": "7dduaniw2GM",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        222,
+        329
+      ]
+    },
+    "s_J6QsErvQaSQ": {
+      "origin": "components/textline.tsx",
+      "displayName": "HelloWorld_component",
+      "canonicalFilename": "s_j6qservqasq",
+      "hash": "J6QsErvQaSQ",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        88,
+        177
+      ]
+    },
+    "s_QlqVA8Vastw": {
+      "origin": "components/textline.tsx",
+      "displayName": "Past_component",
+      "canonicalFilename": "s_qlqva8vastw",
+      "hash": "QlqVA8Vastw",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        366,
+        446
+      ]
+    },
+    "s_ScbADpInqOE": {
+      "origin": "components/button.tsx",
+      "displayName": "Azlan_component",
+      "canonicalFilename": "s_scbadpinqoe",
+      "hash": "ScbADpInqOE",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        83,
+        153
+      ]
+    },
+    "s_oEMoFCkI5e8": {
+      "origin": "components/footer.tsx",
+      "displayName": "Azlan_component",
+      "canonicalFilename": "s_oemofcki5e8",
+      "hash": "oEMoFCkI5e8",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        83,
+        189
+      ]
+    }
+  },
+  "mapping": {
+    "s_7dduaniw2GM": "q-SVnTiaTh.js",
+    "s_J6QsErvQaSQ": "q-kjdefCtU.js",
+    "s_QlqVA8Vastw": "q-Qr2joc8f.js",
+    "s_ScbADpInqOE": "q-siz-ZrzR.js",
+    "s_oEMoFCkI5e8": "q-zWjPn0i1.js"
+  },
+  "bundles": {
+    "q-CsAhb2UN.js": {
+      "size": 337,
+      "imports": [
+        "q-unxe2tx5.js"
+      ],
+      "dynamicImports": [
+        "q-zWjPn0i1.js"
+      ],
+      "origins": [
+        "src/components/footer.tsx"
+      ]
+    },
+    "q-K-8nNX2A.js": {
+      "size": 526,
+      "imports": [
+        "q-unxe2tx5.js"
+      ],
+      "dynamicImports": [
+        "q-kjdefCtU.js",
+        "q-Qr2joc8f.js",
+        "q-SVnTiaTh.js"
+      ],
+      "origins": [
+        "src/components/textline.tsx"
+      ]
+    },
+    "q-kjdefCtU.js": {
+      "size": 118,
+      "imports": [
+        "q-unxe2tx5.js"
+      ],
+      "origins": [
+        "src/s_j6qservqasq.js"
+      ],
+      "symbols": [
+        "s_J6QsErvQaSQ"
+      ]
+    },
+    "q-NGaJuMtK.js": {
+      "size": 337,
+      "imports": [
+        "q-unxe2tx5.js"
+      ],
+      "dynamicImports": [
+        "q-siz-ZrzR.js"
+      ],
+      "origins": [
+        "src/components/button.tsx"
+      ]
+    },
+    "q-Qr2joc8f.js": {
+      "size": 109,
+      "imports": [
+        "q-unxe2tx5.js"
+      ],
+      "origins": [
+        "src/s_qlqva8vastw.js"
+      ],
+      "symbols": [
+        "s_QlqVA8Vastw"
+      ]
+    },
+    "q-siz-ZrzR.js": {
+      "size": 125,
+      "imports": [
+        "q-unxe2tx5.js"
+      ],
+      "origins": [
+        "src/s_scbadpinqoe.js"
+      ],
+      "symbols": [
+        "s_ScbADpInqOE"
+      ]
+    },
+    "q-SVnTiaTh.js": {
+      "size": 116,
+      "imports": [
+        "q-unxe2tx5.js"
+      ],
+      "origins": [
+        "src/s_7dduaniw2gm.js"
+      ],
+      "symbols": [
+        "s_7dduaniw2GM"
+      ]
+    },
+    "q-unxe2tx5.js": {
+      "size": 4667,
+      "origins": [
+        "node_modules/@builder.io/qwik/core.min.mjs"
+      ]
+    },
+    "q-zWjPn0i1.js": {
+      "size": 156,
+      "imports": [
+        "q-unxe2tx5.js"
+      ],
+      "origins": [
+        "src/s_oemofcki5e8.js"
+      ],
+      "symbols": [
+        "s_oEMoFCkI5e8"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "hook"
+    }
+  },
+  "platform": {
+    "qwik": "1.4.3",
+    "vite": "",
+    "rollup": "4.9.6",
+    "env": "node",
+    "os": "win32",
+    "node": "20.10.0"
+  }
+}
